@@ -49,6 +49,16 @@
       "comission_amount": 150000,
       "bonus_applied": "2",
       "id": 5
+    },
+    {
+      "employee_img": "https://wallpaperaccess.com/full/1503351.jpg",
+      "employee_name": "Nozima Zokirova",
+      "employee_id": "545245",
+      "week": "3",
+      "number_of_properties": "7",
+      "comission_amount": 350000,
+      "bonus_applied": "2",
+      "id": 6
     }
   ]
 }

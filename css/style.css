@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+}
+
+/* Style for Main Page (ndex.html) */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(172, 0, 152), rgb(210, 109, 0), rgb(223, 235, 1));
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-block,
+.cal {
+  padding-top: 100px;
+}
+
+.text {
+  text-align: center;
+  font-size: 27px;
+}
+
+.violet-text {
+  color: rgb(94, 0, 182);
+}
+
+.options {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 20px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.btn__table {
+  background-color: transparent;
+  border-color: rgb(248, 255, 175);
+  color: rgb(248, 255, 175);
+  box-shadow: 0 3px 10px rgb(223, 235, 1);
+}
+
+.btn__addComission {
+  background-color: rgb(94, 0, 182);
+  color: rgb(248, 255, 175);
+  border-color: rgb(94, 0, 182);
+  box-shadow: 0 3px 10px rgb(94, 0, 182);
+}
+
+.btn:hover {
+  transform: translateY(-7px);
+}
+
+/*  Style for Table Page */
+
+.main__table {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, rgb(110, 71, 252), rgb(83, 157, 255));
+  padding: 10px 0;
+}
+
+.main__table .text h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.employees__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list {
+  width: 350px;
+  padding: 15px;
+  border: 2px solid rgb(40, 0, 183);
+  border-radius: 10px;
+  background: transparent;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.301);
+  box-shadow: 0 7px 30px rgba(255, 255, 255, 0.301);
+}
+
+.list img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.employee__info h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.employee__info h2 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.id__number {
+  font-size: 25px !important;
+  color: rgb(41, 0, 153);
+}
+
+/* Style for Calculaye Page */
+
+.calculate__main {
+  padding: 15px 0;
+}
+
+.calculate__main .text {
+  margin-bottom: 20px;
+}
+
+.calculate__infos {
+  width: 100%;
+}
+
+.calculate__forms {
+  width: 550px;
+  padding: 20px 30px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.calculate__forms h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.calculate__forms input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.calculate__forms input::placeholder {
+  color: #ffffffb8;
+}
+
+.insert__btn {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 7px;
+  background-color: rgb(74, 0, 184);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: .4s ease;
+  margin-bottom: 10px;
+}
+
+.insert__btn:hover {
+  box-shadow: 0 5px 20px rgb(74, 0, 184);
+}
+
+.insert__btn:focus {
+  background-color: rgb(50, 0, 124);
+}
+
+.final__info {
+  font-size: 18px;
+}

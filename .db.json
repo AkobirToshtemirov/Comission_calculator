@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "employee_img": "https://c4.wallpaperflare.com/wallpaper/957/946/370/photo-4k-domhnall-gleeson-wallpaper-preview.jpg",
+      "employee_name": "Sardor Aliyev",
+      "employee_id": 1212,
+      "week": 2,
+      "number_of_properties": 4,
+      "comission_amount": 200,
+      "bonus_applied": 0
+    },
+    {
+      "id": 2,
+      "employee_img": "https://c4.wallpaperflare.com/wallpaper/918/887/779/ed-sheeran-music-male-celebrities-hd-wallpaper-preview.jpg",
+      "employee_name": "Sobir Botirov",
+      "employee_id": 2323,
+      "week": 1,
+      "number_of_properties": 6,
+      "comission_amount": 400,
+      "bonus_applied": 1
+    },
+    {
+      "id": 3,
+      "employee_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "employee_name": "Asqar Sobirov",
+      "employee_id": 334343,
+      "week": 1,
+      "number_of_properties": 5,
+      "comission_amount": 700,
+      "bonus_applied": 0
+    }
+  ]
+}

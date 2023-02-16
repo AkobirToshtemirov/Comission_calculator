@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate Comission</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <main class="main">
+    <div class="container">
+      <div class="calculate__main">
+        <div class="text">
+          <h1>Let's calculate</h1>
+        </div>
+
+        <div class="calculate__infos">
+          <div class="calculate__forms">
+            <h2>Enter Employee name</h2>
+            <input type="text" placeholder="Employee name" id="employeeName">
+            <h2>Enter Employee ID</h2>
+            <input type="number" id="employeeID" placeholder="Employee ID">
+            <h2>Week</h2>
+            <input type="number" id="week" placeholder="Week">
+            <h2>Number of Properties sold</h2>
+            <input type="number" id="numberOfProperties" placeholder="Number of Properties">
+            <h2>Bonus Week</h2>
+            <input type="number" id="bonusWeek" placeholder="Bonus Week">
+
+            <button class="insert__btn" id="insertBtn">Insert</button>
+
+            <div class="final__info__main">
+              <h2 class="final__info">Total Comission: <span id="totalComission"></span></h2>
+              <h2 class="final__info">Total Properties: <span id="totalProperties"></span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/script.js"></script>
+  
+</body>
+</html>

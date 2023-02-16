@@ -59,6 +59,16 @@
       "comission_amount": 350000,
       "bonus_applied": "2",
       "id": 6
+    },
+    {
+      "employee_img": "https://images.unsplash.com/photo-1554652297-6e7a24cf8fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzMwNDQzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
+      "employee_name": "Masha",
+      "employee_id": "2313",
+      "week": "2",
+      "number_of_properties": "8",
+      "comission_amount": 400000,
+      "bonus_applied": "2",
+      "id": 7
     }
   ]
 }

@@ -15,6 +15,7 @@ fetch(jsonServer)
 .then(res => res.json())
 .then(data => {
   dataList(data);
+  sort(data);
 })
 
 function dataList(data) {
@@ -72,3 +73,19 @@ function postEmployee() {
     body: JSON.stringify(json),
   })
 }
+
+// Sort Employee by using number of properties
+let checkList = [];
+
+
+function sort(sortingData) {
+  sortingData.forEach(list => {
+    checkList.push(list);
+})
+}
+
+console.log(checkList);
+
+checkList.sort((a, b) => a.number_of_properties - b.number_of_properties)
+
+console.log(checkList);

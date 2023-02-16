@@ -41,3 +41,34 @@ function dataList(data) {
   });
 }
 
+// POST Employee
+
+let employeeName = document.getElementById("employeeName");
+let employeeID = document.getElementById("employeeID");
+let employeeImg = document.getElementById("employeeImgLink");
+let week = document.getElementById("week");
+let numberOfProperties = document.getElementById("numberOfProperties");
+let bonusWeek = document.getElementById("bonusWeek");
+const insertBtn = document.getElementById("insertBtn");
+
+function postEmployee() {
+  console.log("POSTing Worked!");
+  let comissionPost = numberOfProperties.value * 50000;
+  const json = {
+    employee_img: employeeImg.value,
+    employee_name: employeeName.value,
+    employee_id: employeeID.value,
+    week: week.value,
+    number_of_properties: numberOfProperties.value,
+    comission_amount: comissionPost, 
+    bonus_applied: bonusWeek.value
+  }
+
+  fetch(jsonServer, {
+    method: "POST", 
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(json),
+  })
+}

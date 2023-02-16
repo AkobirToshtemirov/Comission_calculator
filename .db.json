@@ -29,6 +29,26 @@
       "number_of_properties": 5,
       "comission_amount": 700,
       "bonus_applied": 0
+    },
+    {
+      "employee_img": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "employee_name": "Ahmad Zokirov",
+      "employee_id": "1234242",
+      "week": "5",
+      "number_of_properties": "5",
+      "comission_amount": 250000,
+      "bonus_applied": 3,
+      "id": 4
+    },
+    {
+      "employee_img": "https://wallpapercave.com/wp/wp5757458.jpg",
+      "employee_name": "Mahliyo Aliyeva",
+      "employee_id": "27623876",
+      "week": "4",
+      "number_of_properties": "3",
+      "comission_amount": 150000,
+      "bonus_applied": "2",
+      "id": 5
     }
   ]
 }

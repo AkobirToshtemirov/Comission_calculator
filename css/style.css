@@ -191,3 +191,7 @@
 .final__info {
   font-size: 18px;
 }
+
+.calculateMain {
+  height: auto !important;
+}

@@ -69,6 +69,16 @@
       "comission_amount": 400000,
       "bonus_applied": "2",
       "id": 7
+    },
+    {
+      "employee_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "employee_name": "John Black",
+      "employee_id": "212343",
+      "week": "4",
+      "number_of_properties": "4",
+      "comission_amount": 200000,
+      "bonus_applied": "0",
+      "id": 8
     }
   ]
 }

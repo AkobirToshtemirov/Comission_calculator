@@ -99,6 +99,16 @@
       "comission_amount": 600000,
       "bonus_applied": "4",
       "id": 10
+    },
+    {
+      "employee_img": "https://media.licdn.com/dms/image/D4D35AQGSs22MkWryBA/profile-framedphoto-shrink_400_400/0/1672398989623?e=1677438000&v=beta&t=AhyZiRSYSH_Knn13g6Tr5D4VBryyz3HXCI23IHMGIAI",
+      "employee_name": "Zohid Yuldashev",
+      "employee_id": "777777",
+      "week": "5",
+      "number_of_properties": "7",
+      "comission_amount": 350000,
+      "bonus_applied": "4",
+      "id": 11
     }
   ]
 }

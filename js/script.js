@@ -12,16 +12,16 @@ function changeLocation(link) {
 let jsonServer = "http://localhost:3004/employees";
 
 fetch(jsonServer)
-.then(res => res.json())
-.then(data => {
-  dataList(data);
-  sort(data);
-})
+  .then(res => res.json())
+  .then(data => {
+    dataList(data);
+    sort(data);
+  })
 
 function dataList(data) {
   employeesList.innerHTML = ``;
   data.forEach(list => {
-    const {id, employee_img, employee_name, employee_id, week, number_of_properties, comission_amount, bonus_applied} = list;
+    const { id, employee_img, employee_name, employee_id, week, number_of_properties, comission_amount, bonus_applied } = list;
     let listBox = document.createElement("div");
 
     listBox.innerHTML = `
@@ -61,12 +61,12 @@ function postEmployee() {
     employee_id: employeeID.value,
     week: week.value,
     number_of_properties: numberOfProperties.value,
-    comission_amount: comissionPost, 
+    comission_amount: comissionPost,
     bonus_applied: bonusWeek.value
   }
 
   fetch(jsonServer, {
-    method: "POST", 
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
@@ -75,13 +75,13 @@ function postEmployee() {
 }
 
 // Sort Employee by using number of properties
-let checkList = [];
 
+let checkList = [];
 
 function sort(sortingData) {
   sortingData.forEach(list => {
     checkList.push(list);
-})
+  })
 }
 
 console.log(checkList);

@@ -79,6 +79,26 @@
       "comission_amount": 200000,
       "bonus_applied": "0",
       "id": 8
+    },
+    {
+      "employee_img": "https://wallpapercave.com/wp/wp9252388.jpg",
+      "employee_name": "Stephan Johanson",
+      "employee_id": "232434",
+      "week": "8",
+      "number_of_properties": "10",
+      "comission_amount": 500000,
+      "bonus_applied": "5",
+      "id": 9
+    },
+    {
+      "employee_img": "https://wallpaperaccess.com/full/1087833.jpg",
+      "employee_name": "Tom Holland",
+      "employee_id": "543543",
+      "week": "5",
+      "number_of_properties": "12",
+      "comission_amount": 600000,
+      "bonus_applied": "4",
+      "id": 10
     }
   ]
 }

@@ -90,7 +90,6 @@ console.log(checkList);
 checkList.sort((a, b) => b.number_of_properties - a.number_of_properties)
 
 checkList.map(item => {
-  
   console.log("Item: " + item);
 })
 

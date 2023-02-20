@@ -197,3 +197,7 @@
 .calculateMain {
   height: auto !important;
 }
+
+#posted {
+  color: rgb(115, 255, 115);
+}

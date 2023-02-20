@@ -37,7 +37,6 @@ function dataList(data) {
         </div>
       </div>
     `
-    console.log(employee_name);
     employeesList.appendChild(listBox)
   });
 }
@@ -54,6 +53,7 @@ const insertBtn = document.getElementById("insertBtn");
 
 function postEmployee() {
   console.log("POSTing Worked!");
+  document.getElementById('posted').innerText = "Posted!!!";
   let comissionPost = numberOfProperties.value * 50000;
   const json = {
     employee_img: employeeImg.value,
@@ -84,8 +84,14 @@ function sort(sortingData) {
   })
 }
 
-console.log(checkList);
-
-checkList.sort((a, b) => a.number_of_properties - b.number_of_properties)
 
 console.log(checkList);
+
+checkList.sort((a, b) => b.number_of_properties - a.number_of_properties)
+
+checkList.map(item => {
+  
+  console.log("Item: " + item);
+})
+
+console.log("Hello");
